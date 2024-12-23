@@ -1,1 +1,1 @@
-python -m src.app.bot
+python3 -m src.app.bot

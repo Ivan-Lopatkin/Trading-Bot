@@ -14,5 +14,4 @@ class Transaction(Base):
     price = Column(Numeric, nullable=True)
     total = Column(Numeric, nullable=False)
     timestamp = Column(TIMESTAMP, nullable=False)
-
     user = relationship("User", back_populates="transactions")
